@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+   font-size: 13px;
+   font-family: Montserrat;
+   background-color: #F5F6FA;
+}
+
+.wrapper{
+    max-width: calc(350px * 3 + 28px  *2);
+    margin: 50px auto;
+}
+
+.wrapper__title{
+    text-align: center;
+    font-size: 47px;
+    font-weight: 700;
+}
+
+.navigation{
+    margin-top: 49px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.navigation__item{
+    display: inline-block;
+    line-height: 25px;
+    color: #5C5F66;
+    background-color: #EFEFEF;
+    padding: 0 9px;
+    border-radius: 4px;
+}
+
+.navigation__item_show-all{
+    line-height: 25px;
+    color: #F7D047;
+    font-weight: 600;
+    text-decoration-style: dashed;
+    margin-left: 68px;
+}
+
+.card-wrapper{
+    height: max-content;
+    margin-top: 26px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    gap: 25px;
+}
+
+.card{
+    width: 350px;
+    height: 505px;
+    background-color: #fff;
+    border-radius: 14px;
+    box-sizing: border-box;
+}
+
+.card__info{
+    padding: 30px;
+    color: #7A7D81;
+}
+
+.card__title{
+    margin: 0;
+    font-size: 29px;
+    font-weight: 700;
+    color: #000;
+}
+
+.card__info_basic{
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: calc(14px * 2 + 9px);
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.card__info_basic_item{
+    margin: 0;
+    line-height: 1;
+}
+
+.card__info_basic_item_b{
+    font-weight: 600;
+}
+
+.card__info_type{
+    margin-top: 30px;
+}
+
+.card__info_type_item{
+    margin: 0;
+}
+
+.card__info_type_b{
+    color: #5C5F66;
+    font-weight: 600;
+}
+
+.card__info_type_green{
+    color: #73B918;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.card__button{
+    box-sizing: border-box;
+    border: none;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 40px;
+    background-color: #FEAA01;
+    width: 171px;
+    height: 40px;
+    border-radius: 5px;
+    
+}
+
+.card__add-information{
+    margin: 0;
+    font-size: 9px;
+    color: #B8B8BA;
+    max-width: 84px;
+}
+
+.card__footer{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
